@@ -1,6 +1,7 @@
 import Users from "../models/userModel.js";
 import jwt from 'jsonwebtoken';
 
+// controller untuk mendapatkan refresh token
 export const refreshToken = async(req, res) => {
     try {
         const refreshToken = req.cookies.refreshToken;
