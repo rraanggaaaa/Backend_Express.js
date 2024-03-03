@@ -7,11 +7,8 @@ import router from "./routes/index.js"
 import Users from "./models/userModel.js"
 import History from "./models/historyModel.js"
 import "./models/finalModel.js"
-import mongoose from "mongoose";
-import multer from "multer";
-import path from "path";
 
-// mongoose.connect("mongodb+srv://rraanggaaaa:05Rangga@rangga.uaczgwe.mongodb.net/?retryWrites=true&w=majority&appName=Rangga")
+
 dotenv.config();
 const app = express(); 
 const PORT = 5000; 
